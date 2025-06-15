@@ -41,7 +41,7 @@ nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 # Load your dataset
-df = pd.read_csv(r"C:\Users\ZA-Computer\Downloads\tweets.csv")
+df = pd.read_csv("tweets.csv")
 
 
 # Keep only Tweet and Sentiment columns
